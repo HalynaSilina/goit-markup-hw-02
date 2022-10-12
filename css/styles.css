@@ -49,3 +49,48 @@ color: var(--primary-black-color);
 .nav .link:focus {
     color: var(--primary-accent-color);
 }
+/* Contacts list */
+.contact .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.contact .link:hover,
+.contact .link:focus {
+    color: var(--primary-accent-color);
+}
+/* Hero */
+.hero {
+    background-color: var(--primary-bg-color);
+}
+.title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+}
+.hero.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+.order-button {
+    background-color: var(--primary-accent-color);
+    color: var(--primary-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+/* Features */
+.features-title {
+visibility: hidden;
+}
+.features .title {
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+}
