@@ -65,6 +65,7 @@ color: var(--primary-black-color);
 .hero {
     background-color: var(--primary-bg-color);
 }
+/* title */
 .title {
     color: var(--secondary-text-color);
     font-weight: 700;
@@ -74,6 +75,7 @@ color: var(--primary-black-color);
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    text-align: center;
     text-transform: uppercase;
     color: var(--primary-white-color);
 }
@@ -93,4 +95,28 @@ visibility: hidden;
 font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
+}
+/* Our works */
+.works.title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+/* Team */
+.team {
+    background-color: var(--secondary-bg-color);
+}
+.team-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.team-item {
+    background-color: var(--primary-white-color);
+    text-align: center;
+}
+.team-item>.title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
 }
